@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions name="EInvWebServiceImplService" targetNamespace="http://impl.cxf.aisino.com/" xmlns:ns1="http://cxf.aisino.com/" xmlns:ns2="http://cxf.apache.org/bindings/xformat" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://impl.cxf.aisino.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <wsdl:import location="http://60.194.106.83:10000/CNPC_SlProj/webService/eInvWS?wsdl=IEInvWebService.wsdl" namespace="http://cxf.aisino.com/">
+    </wsdl:import>
+  <wsdl:binding name="EInvWebServiceImplServiceSoapBinding" type="ns1:IEInvWebService">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="gomeData">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="gomeData">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="gomeDataResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EInvWebServiceImplService">
+    <wsdl:port binding="tns:EInvWebServiceImplServiceSoapBinding" name="EInvWebServiceImplPort">
+      <soap:address location="http://60.194.106.83:10000/CNPC_SlProj/webService/eInvWS" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

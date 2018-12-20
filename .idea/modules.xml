@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/IdeaProjects.iml" filepath="$PROJECT_DIR$/.idea/IdeaProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEST.maven/TEST.maven.iml" filepath="$PROJECT_DIR$/TEST.maven/TEST.maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEST.springMVC/TEST.springMVC.iml" filepath="$PROJECT_DIR$/TEST.springMVC/TEST.springMVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEST.webservice/TEST.webservice.iml" filepath="$PROJECT_DIR$/TEST.webservice/TEST.webservice.iml" />
+    </modules>
+  </component>
+</project>
